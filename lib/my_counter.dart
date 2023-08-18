@@ -34,7 +34,9 @@ class _MyCounterState extends State<MyCounter> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text(widget.title)),
+        title: Center(child: Center(
+        child: Text(widget.title),
+        ),),
       ),
       body: Center(
         child: Column(
